@@ -6,7 +6,7 @@ $mkdir term_proj
 Then change dir to it:
 $cd term_proj
 
-2. save Customer and cust_no_dups.pig files under the current dir using SFTP or Filezilla.
+2. save Customer, Transactions and Q1_total_num_cust.pig files under the current dir using SFTP or Filezilla.
 
 3. run the below command line:
 $pig -x local Q1_total_num_cust.pig
